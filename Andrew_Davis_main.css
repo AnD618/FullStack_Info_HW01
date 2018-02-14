@@ -1,0 +1,200 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	max-width: none;
+}
+
+html, body{
+
+}
+
+/*********   header   **********/
+header {
+	width: 100%;
+	background: #4d94ff;
+	color: #ffffff;
+	box-sizing: border-box;
+	height: 100%;
+	line-height: 70px;
+	background-color: #BE5959;
+	display: inline-block;
+}
+
+/*********   article   **********/
+article {
+
+}
+
+/*********   section   **********/
+section {
+
+}
+
+/*********   nav   **********/
+
+nav {
+	width: 75%;
+	text-align: center;
+}
+
+#navigation {
+
+}
+
+.site-title {
+	float: center;
+	width: auto;
+	vertical-align: middle;
+	font-size: large;
+	font-family: Helvetica;
+}
+
+.nav-button {
+	float: left;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	background: lightgrey;
+	text-align: center;
+	font-size: medium;
+	font-family: Helvetica;
+	color: black;
+	margin: 4px;
+	margin-top: 15px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-radius: 5px;
+	display: inline;
+}
+
+.pokeball {
+	float: right;
+	display: inline;
+	margin-top: 15px;
+}
+
+.pokemonpicture {
+	display: inline-block;
+	width: 30%;
+	text-align: left;
+	vertical-align: top;
+	height: auto;
+	object-fit: contain;
+}
+
+.pokemonpicture img {
+	width: 100px;
+}
+
+.pokemondescription {
+	display: inline-block;
+	width: 65%;
+	text-align: center;
+	height: 85px;
+}
+
+.pokemonnumber {
+	text-align: left;
+	color: white;
+	font-size: 16pt;
+	background-color: #5C90CC;
+	padding-left: 20px;
+
+}
+
+.pokemontraits {
+	text-align: left;
+	background-color: white;
+	padding-left: 20px;
+	padding-top: 5px;
+	height: 75%;
+	border: 1px solid grey;
+	margin:auto;
+}
+
+.article {
+	border: 5px solid #BE5959;
+	border-radius: 10px;
+	background-color: white;
+	width: 85%;
+	text-align: center;
+	padding: 10px;
+}
+
+table, td, tr {
+	border: 1px solid black;
+	border-spacing: 0px;
+	width: 200px;
+}
+
+.w3 {
+	object-fit: fill;
+}
+/*********   section   **********/
+section {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.container {
+
+	margin-top: 5px;
+}
+
+.parent {
+	font-size: 0;
+	border: solid black 1px;
+	margin-top: 10px;
+}
+
+
+
+.pokemonimages {
+border: solid black 2px;
+display: inline-block;
+width: 16.6%;
+margin: -2px;
+}
+
+
+
+
+.pokemonimages img {
+	width: 100%;
+	object-fit: contain;
+}
+
+
+/*********   nav   **********/
+
+
+.quarters {
+	background-color: #5C90CC;
+	height: 50px;
+	vertical-align: middle;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 24%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
